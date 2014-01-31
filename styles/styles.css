@@ -1,0 +1,332 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Arial, regular; background:   #fff; color:#4b7589; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrapper_header {
+	background: url(../images/gradient1.png) repeat-x bottom,
+				url(../images/boll.png) no-repeat bottom center,	
+				url(../images/bg_header.png) repeat-x;			
+}
+.wrapper {
+	overflow: hidden;
+	width: 900px;
+	margin: 0 auto;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header {
+	overflow: hidden;
+	width: 900px;
+	margin: 0 auto;
+}
+h1 {
+	overflow: hidden;
+	float: left;
+	width: 169px;
+	height: 71px;
+	margin: 18px 118px 0px 0px; 
+}
+
+.header  ul.nav {
+	float: right;
+	margin-top: 48px;
+}
+.header .nav  li {
+	float: left;
+	position: relative;
+	margin-left: 24px;
+}
+.header .nav a {
+	display: block;
+	text-decoration:none;
+    text-transform: uppercase;
+	font: 700 15px PT Sans, bold;
+	color: #396375;
+}
+.header .nav  li.active a, .header .nav  li  a:hover {
+	color: #e11d5c;
+	text-decoration:none;
+}
+.header  ul.soclink {
+	float: left;
+	margin-top: 42px;
+}
+.header ul.soclink  li {
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+  	width: 23px;
+    height: 23px;
+	border-radius: 23px;
+	margin-right: 8px;
+}
+.header ul.soclink  li  a{
+	display: block;	
+	height: 100%;
+	font-size: 0;
+}
+.fb {
+	background: url(../images/soclink.png) #abbcc4 no-repeat;
+	background-position: 1px 3px;
+
+}
+.vk {
+	background: url(../images/soclink.png) #abbcc4 no-repeat;
+	background-position: -30px 3px;
+}
+.tw {
+	background: url(../images/soclink.png) #abbcc4 no-repeat;
+	background-position: -63px 2px;
+}
+.yt {
+	background: url(../images/soclink.png) #abbcc4 no-repeat;
+	background-position: -95px 2px;	
+}			
+.vimeo {
+	background: url(../images/soclink.png) #abbcc4 no-repeat;
+	background-position: -127px 2px;
+}
+.header ul.soclink  li:hover {
+	background-color: #86a3af;
+	
+}
+h2 {
+	float: left;
+	margin-top: 16px;
+	padding-top: 59px;
+	border-top: 1px solid #8EA8B3;
+	text-align: center;
+	font: 53px Trebuchet MS, regular;
+	color: #256988;
+}
+a.registration  {
+	float: left;
+	margin: 29px 280px 28px 287px;
+	padding: 27px 55px 36px;
+	background: url(../images/registration.png) no-repeat center;
+	text-decoration: none;
+	font: 26px Trebuchet MS, regular;
+	color: #ffffff;
+	text-align: center;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+p.geekhub {
+	padding: 37px 107px 0 129px;
+	text-align: left;
+	font: 15px Arial, regular;
+	line-height: 1.4;	
+}
+p.geekhub a {
+	text-decoration: none;
+	color: #E11D5D;
+}
+h3 {
+	width: 100%;
+	padding: 26px 0 4px 0;
+	border-bottom: 1px solid #A7C3CF;
+	font: 19px Trebuchet MS, regular;
+	color: #A6C3CE;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	line-height: 1.4;
+	text-align: center;
+}
+ul.courses {
+	overflow: hidden;	
+	padding: 18px 0px 62px 0px;
+}
+ul.courses li {
+	overflow: hidden;
+	float: left;
+	width: 450px;
+	padding-bottom: 22px;
+}
+ul.courses li img {
+	overflow: hidden;
+	float: left;
+	margin: 0 18px 16px 0;
+	width: 122px;
+    height: 122px;
+	-moz-border-radius: 61px;
+	-webkit-border-radius: 61px;
+	-khtml-border-radius: 61px;
+	border-radius: 61px;
+	behavior: url(../border-radius.htc);
+	border: 3px dashed #EC3782;
+}
+ul.courses  a {
+	font: 28px Trebuchet MS, regular;
+	color: #E92777;
+	text-decoration:none;
+}
+h4 {
+	margin-bottom: 14px;
+}
+ul.courses p {
+	float: right;
+	width: 302px;
+	line-height: 1.4;
+	text-align: left;	
+}
+ul.courses li:nth-child(odd) p {
+	width: 262px;
+	padding-right: 38px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+ul.social_footer {
+	float: left;
+	margin-bottom: 57px;
+}
+ul.social_footer li {
+	float: left;
+}
+h5 {
+	width: 100%;
+	margin-top: 13px;
+	border-bottom: 1px solid #A7C3CF;
+	font: 17px Trebuchet MS, regular;
+	color: #437183;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	line-height: 1.6;
+	text-align: center;
+}
+ul.sponsors {
+	width: 275px;
+}
+.facebook  {
+	margin: 17px 30px 0 10px;
+}
+.sertificates {
+	margin: 0px 30px 0 0px;
+}
+ul.sponsors li {
+	float: left;
+	width: 73px;
+    height: 55px;
+	margin: 21px 12px 0 10px;	
+}
+ul.sponsors li a{
+	display: block;
+	height: 100%;
+	font-size: 0;
+}
+ul.sponsors li:nth-child(1) {
+	background: url(../images/sponsors.png) no-repeat;
+	background-position: 1% 10%;
+}
+ul.sponsors li:nth-child(2) {
+	background: url(../images/sponsors.png) no-repeat;
+	background-position: 54% 10%;	
+}
+ul.sponsors li:nth-child(3) {
+	background: url(../images/sponsors.png) no-repeat;
+	margin-left: 0px;
+	background-position: 99% 10%;	
+}
+ul.sponsors li:nth-child(4) {
+	margin: 21px 23px 0 51px;
+	background: url(../images/sponsors.png) no-repeat;
+	background-position: 25% 95%;	
+}
+ul.sponsors li:nth-child(5) {
+	background: url(../images/sponsors.png) no-repeat;
+	background-position: 80% 95%;	
+}
+ul.sponsors li:nth-child(1):hover {
+	background: url(../images/sponsorscolor.png) no-repeat;
+	background-position: 1% 10%;
+}
+ul.sponsors li:nth-child(2):hover {
+	background: url(../images/sponsorscolor.png) no-repeat;
+	background-position: 54% 10%;	
+}
+ul.sponsors li:nth-child(3):hover {
+	background: url(../images/sponsorscolor.png) no-repeat;
+	margin-left: 0px;
+	background-position: 99% 10%;	
+}
+ul.sponsors li:nth-child(4):hover {
+	margin: 21px 23px 0 51px;
+	background: url(../images/sponsorscolor.png) no-repeat;
+	background-position: 25% 95%;	
+}
+ul.sponsors li:nth-child(5):hover {
+	background: url(../images/sponsorscolor.png) no-repeat;
+	background-position: 80% 95%;	
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer {
+	clear: both;
+	margin-bottom: 90px;
+	padding-top: 14px;
+	border-top: 1px solid #a7c3cf;
+}
+.footer .nav li {
+	float: left;
+	margin-right: 20px;	
+}
+.footer ul.nav a{
+	text-decoration:none;
+	text-transform: uppercase;
+	font: 700 11px Arial, bold;
+	color: #396375;
+}
+.footer .nav  li.active a, .footer .nav  li  a:hover{
+	color: #f85b4e;
+	text-decoration:none;	
+}
+.footer p {
+	float: right;
+	font: 11px Arial, regular;
+	color: #a7c3cf;
+}
